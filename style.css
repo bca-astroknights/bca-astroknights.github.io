@@ -108,18 +108,11 @@ iframe[src*=youtube] {
     text-align: left;
 }
 
-.fadeNav {
+.fade {
     animation-name: fadein;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
     animation-timing-function: ease-in;
-    opacity: 100;
-}
-
-.fadeBody {
-    animation-name: fadein;
-    animation-duration: 4s;
-    animation-timing-function: ease-in;
-    opacity: 100;
+    opacity: 1;
 }
 
 /* Mobile CSS rules */
