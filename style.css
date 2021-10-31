@@ -87,15 +87,39 @@ iframe[src*=youtube] {
     padding: 2%;
     margin-bottom: 5%;
     width: 90%;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    line-height: 2.75em;
 }
 
 #main a {
     font-size: 1.3em;
 }
 
+#rocketImage {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    animation: 1.5s ease-in 0s 1 rocket;
+    bottom: 125%;
+}
+
 .blog p, .blog h3, .blog a {
     text-align: left;
+}
+
+.fadeNav {
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    opacity: 100;
+}
+
+.fadeBody {
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    opacity: 100;
 }
 
 /* Mobile CSS rules */
@@ -111,5 +135,23 @@ iframe[src*=youtube] {
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes rocket {
+    from {
+        bottom: 0%;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
