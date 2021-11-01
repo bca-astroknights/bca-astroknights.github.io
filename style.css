@@ -100,7 +100,7 @@ iframe[src*=youtube] {
     height: auto;
     position: absolute;
     left: 45%;
-    animation: 1.5s ease-in 0s 1 rocket;
+    animation: 1.25s ease-in 0s 1 rocket;
     bottom: 125%;
 }
 
@@ -110,7 +110,7 @@ iframe[src*=youtube] {
 
 .fade {
     animation-name: fadein;
-    animation-duration: 3.5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in;
     opacity: 1;
 }
