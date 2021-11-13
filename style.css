@@ -125,7 +125,7 @@ iframe[src*=youtube] {
 
 .fade {
     animation-name: fadein;
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in;
     opacity: 1;
 }
