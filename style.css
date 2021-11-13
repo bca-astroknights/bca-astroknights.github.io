@@ -31,7 +31,7 @@ h3 {
     font-size: 1.4em;
 }
 
-p {
+p, li {
     font-size: 1.3em;
 }
 
@@ -111,7 +111,15 @@ iframe[src*=youtube] {
     width: 50%
 }
 
-.blog p, .blog h3, .blog a {
+.blog h1, h2 {
+    text-align: center;
+}
+
+.blog a {
+    font-size: 1.2em;
+}
+
+.blog {
     text-align: left;
 }
 
